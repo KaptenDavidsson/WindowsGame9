@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <furnitures>
+    <floor level="1">
+      <furniture name="carpet1" x="21" y="33" width="8" height="6" canpassthrough="true" />
+      <furniture name="carpet2" x="46" y="26" width="4" height="4" canpassthrough="true" />
+      <furniture name="carpet4" x="61" y="13" width="2" height="2" canpassthrough="true" />
+      <furniture name="table1" x="27" y="29" width="5" height="3" />
+      <furniture name="chair1" x="28" y="10" width="2" height="2" />
+      <furniture name="shrub" x="73" y="10" width="4" height="4" />
+      <furniture name="shrub" x="73" y="30" width="4" height="4" />
+      <furniture name="shrub" x="73" y="50" width="4" height="4" />
+      <furniture name="streetlamp2" x="77" y="17" width="2" height="2" />
+      <furniture name="lamplight" x="72" y="12" width="12" height="12" canpassthrough="true" />
+      <furniture name="streetlamp2" x="77" y="37" width="2" height="2" />
+      <furniture name="lamplight" x="72" y="32" width="12" height="12" canpassthrough="true" />
+      <furniture name="streetlamp2" x="77" y="57" width="2" height="2" />
+      <furniture name="lamplight" x="72" y="52" width="12" height="12" canpassthrough="true" />
+      <furniture name="sewerlid" x="88" y="26" width="2" height="2" canpassthrough="true" />
+      <furniture name="table3" x="44" y="10" width="4" height="6" />
+      <furniture name="sofa1" x="42" y="24" width="8" height="4" />
+      <furniture name="sofa2" x="113" y="37" width="8" height="4" />
+      <furniture name="whitefurniture" x="52" y="12" width="2" height="2" />
+      <furniture name="sink2" x="52" y="8" width="2" height="2" />
+      <furniture name="sink1" x="63" y="8" width="2" height="2" />
+      <furniture name="toilet" x="57" y="8" width="2" height="2" />
+      <furniture name="spaceship" x="80" y="91" width="32" height="24" />
+    </floor>
+  </furnitures>
+  <stairs>
+    <staircase x="34" y="8" width="6" height="3" floor="1" toFloor="2" name="staircase2" />
+    <staircase x="34" y="8" width="6" height="3" floor="2" toFloor="1" name="staircase2" />
+  </stairs>
+  <roomdescriptions>
+    <roomdescription description="Kitchen" x="21" y="8" width="19" height="11" floor="1" />
+    <roomdescription description="Living room" x="21" y="23" width="20" height="16" floor="1" />
+  </roomdescriptions>
+  <floortiles>
+    <floortile r="255" g="255" b="0" name="wood1" />
+    <floortile r="0" g="0" b="255" name="wood1" />
+    <floortile r="255" g="0" b="0" name="wood2" />
+    <floortile r="255" g="216" b="0" name="mosaic" />
+    <floortile r="0" g="255" b="0" name="stones" />
+    <floortile r="173" g="255" b="47" name="grass" />
+    <floortile r="128" g="0" b="128" name="asphalt" />
+    <floortile r="0" g="255" b="255" name="concrete" />
+  </floortiles>
+  <weapondefinitions>
+    <weapon name="machinegun" cooldown="50" power="1000" isprimary="true" drainspower="true" damage="5" range="-1" push="0">
+      <animatedtexture name="machinegun" horizontal="2" vertical="5" repeat="false" framespersecond="20" width="50" height="50" originx="25" originy="25" />
+      <animatedtexture name="machinegunfire" horizontal="5" vertical="5" repeat="false" framespersecond="50" width="20" height="50" originx="25" originy="90" sound="machinegunsound" />
+    </weapon>
+    <weapon name="gun" cooldown="550" power="1000" isprimary="true" drainspower="true" damage="15" range="-1" push="10">
+      <animatedtexture name="gun" horizontal="4" vertical="1" repeat="false" framespersecond="12" width="50" height="50" originx="25" originy="25" />
+      <animatedtexture name="explosionsprite" horizontal="5" vertical="5" repeat="false" framespersecond="50" width="50" height="50" originx="25" originy="80" sound="explosionsound" />
+    </weapon>
+    <weapon name="twoguns" cooldown="550" power="1000" isprimary="true" drainspower="true" damage="30" range="-1" push="0">
+      <animatedtexture name="twoguns" horizontal="4" vertical="2" repeat="false" framespersecond="12" width="50" height="50" originx="25" originy="25" />
+      <animatedtexture name="doubleexplosionsprite" horizontal="2" vertical="10" repeat="false" framespersecond="25" width="40" height="50" originx="70" originy="80" sound="explosionsound" />
+    </weapon>
+    <weapon name="shotgun" cooldown="1000" power="1000" isprimary="true" drainspower="true" damage="25" range="30" push="40">
+      <animatedtexture name="shotgun" horizontal="4" vertical="1" repeat="false" framespersecond="4" width="50" height="50" originx="25" originy="25" />
+      <animatedtexture name="explosionsprite" horizontal="5" vertical="5" repeat="false" framespersecond="25" width="50" height="50" originx="25" originy="80" sound="explosionsound" />
+    </weapon>
+    <weapon name="knife" cooldown="550" power="1000" isprimary="true" drainspower="false" damage="15" range="3" push="0">
+      <animatedtexture name="knife" horizontal="4" vertical="1" repeat="false" framespersecond="12" width="50" height="50" originx="25" originy="25" />
+    </weapon>
+    <weapon name="flamethrower" cooldown="550" power="1000" isprimary="true" drainspower="true" damage="5" range="-1" push="0" />
+    <weapon name="fireextinguisher" cooldown="550" power="1000" isprimary="true" drainspower="true" damage="5" range="-1" push="0" />
+    <weapon name="grenade" cooldown="550" power="1000" isprimary="false" drainspower="true" damage="5"  range="-1" push="0">
+      <animatedtexture name="grenadesmall" horizontal="1" vertical="1" repeat="true" framespersecond="1" width="30" height="35" originx="25" originy="25" />
+      <animatedtexture name="explosionsprite" horizontal="5" vertical="5" repeat="true" framespersecond="25" width="90" height="90" originx="25" originy="80" sound="explosionsound" />
+    </weapon>
+    <weapon name="remotebomb" cooldown="550" power="1000" isprimary="false" drainspower="true" damage="5"  range="-1" push="0">
+      <animatedtexture name="bomb" horizontal="1" vertical="1" repeat="true" framespersecond="1" width="30" height="35" originx="25" originy="25" />
+      <animatedtexture name="explosionsprite" horizontal="5" vertical="5" repeat="true" framespersecond="25" width="50" height="50" originx="25" originy="80" sound="explosionsound" />
+    </weapon>
+    <weapon name="glassfibre" cooldown="550" power="1000" isprimary="false" drainspower="true" damage="5" range="-1" push="0" />
+    <weapon name="camera" cooldown="550" power="1000" isprimary="false" drainspower="true" damage="5" range="-1" push="0" />
+    
+    <weapon name="electricshock" cooldown="200" power="1000" isprimary="true" drainspower="false" damage="30" range="5" push="0" >
+      <animatedtexture name="alienattack" horizontal="4" vertical="1" repeat="false" framespersecond="3" width="70" height="70" originx="25" originy="25" />
+      <animatedtexture name="electricitysprite" horizontal="10" vertical="1" repeat="false" framespersecond="7" width="50" height="80" originx="25" originy="80" sound="electricsound" />
+    </weapon>
+    <weapon name="walkwalls" cooldown="550" power="1000" isprimary="false" drainspower="true" damage="5" range="-1" push="0" />
+    <weapon name="seewalls" cooldown="550" power="1000" isprimary="false" drainspower="true" damage="5" range="-1" push="0" />
+    <weapon name="mind" cooldown="550" power="1000" isprimary="false" drainspower="true" damage="5" range="-1" push="0" />
+    <weapon name="repel" cooldown="550" power="1000" isprimary="false" drainspower="true" damage="5" range="-1" push="0" />
+    <weapon name="push" cooldown="550" power="1000" isprimary="false" drainspower="true" damage="0" range="-1" push="500" />
+    <weapon name="wall" cooldown="550" power="1000" isprimary="false" drainspower="true" damage="5" range="-1" push="0" />
+    <weapon name="speed" cooldown="550" power="1000" isprimary="false" drainspower="true" damage="5" range="-1" push="0" />
+    <weapon name="teleport" cooldown="1000" power="1000" isprimary="false" drainspower="true" damage="5" range="-1" push="0" />
+    <weapon name="teleportother" cooldown="1000" power="1000" isprimary="false" drainspower="true" damage="5" range="-1" push="0" />
+    <weapon name="stun" cooldown="1000" power="1000" isprimary="false" drainspower="true" damage="5" range="-1" push="0" />
+    <weapon name="forcefield" cooldown="0" power="1000" isprimary="true" drainspower="true" damage="5" range="-1" push="0">
+      <animatedtexture name="alienattack" horizontal="4" vertical="1" repeat="false" framespersecond="3" width="70" height="70" originx="25" originy="25" />
+      <animatedtexture name="forcefield" horizontal="1" vertical="1" repeat="false" framespersecond="7" width="100" height="100" originx="125" originy="125" sound="electricsound" />
+    </weapon>
+  </weapondefinitions>
+  <placedweapons>
+    <human>
+      <placedweapon name="gun"/>
+      <placedweapon name="knife" />
+      <placedweapon name="grenade" />
+      <placedweapon name="camera" />
+    </human>
+    <alien>
+      <placedweapon name="electricshock" />
+      <placedweapon name="walkwalls" />
+      <placedweapon name="seewalls" />
+      <placedweapon name="mind" />
+      <placedweapon name="repel" />
+      <placedweapon name="wall" />
+      <placedweapon name="speed" />
+      <placedweapon name="teleport" />
+      <placedweapon name="teleportother" />
+      <placedweapon name="forcefield" />
+      <placedweapon name="push" />
+      <placedweapon name="stun" />
+
+    </alien>
+    <floor level="1">
+      <placedweapon name="machinegun" x="27" y="32" />
+      <placedweapon name="remotebomb" x="35" y="32" />
+    </floor>
+  </placedweapons>
+  <npcs>
+    <floor level="1">
+      <npc x="1700" y="1000" />
+    </floor>
+  </npcs>
+  <rechargers>
+    <floor level="1">
+      <recharger x="1700" y="500" type="gun" power="100" />
+    </floor>
+  </rechargers>
+  <doors>
+    <floor level="1">
+      <door x="1382" y="580" isopen="false" />
+    </floor>
+  </doors>
+</items>
